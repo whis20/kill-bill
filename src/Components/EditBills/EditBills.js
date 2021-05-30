@@ -8,7 +8,7 @@ const EditBills = () =>{
     const { addToast } = useToasts();
     const {bills , setEditModeEnabled, editBill , deleteBill} = useContext(BillContext);
     const editDone = () =>{
-        addToast('Bill/s edited !', { appearance: 'success', autoDismiss:true,autoDismissTimeout:3000 });
+        addToast('Bill/Bills edited !', { appearance: 'success', autoDismiss:true,autoDismissTimeout:3000 });
         setEditModeEnabled(false);
     }
     const billDeleted = () =>{
