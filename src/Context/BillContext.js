@@ -10,9 +10,6 @@ const BillProvider = ({children}) => {
         setBills(JSON.parse(localStorage.getItem('user-bills')) || []);
     },[setBills]);
 
-    useEffect(()=>{
-        console.log(bills);
-    },[bills])
 
 
     const updateBills = (bill) =>{

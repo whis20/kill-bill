@@ -10,7 +10,6 @@ const BillList = () =>{
 
     return(
         <div className='bill-list-container text-center'>
-        
         {
             bills.map((bill,index) => {
                 return(
@@ -33,7 +32,7 @@ const BillList = () =>{
             })
         }
         {
-            JSON.parse(localStorage.getItem('user-bills')).length>0 ? <h6 className='edit-mode-btn btn btn-outline-dark'
+            JSON.parse(localStorage.getItem('user-bills')) ? <h6 className='edit-mode-btn btn btn-outline-dark'
         onClick={() => setEditModeEnabled(true)}>
             EDIT
         </h6> : ''

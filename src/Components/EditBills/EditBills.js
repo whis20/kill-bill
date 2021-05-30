@@ -31,8 +31,8 @@ const EditBills = () =>{
                                 type='number'
                                 value={bill.monthlyCost}
                                 onChange={ (e) => editBill({
-                                    title:bill.title,
-                                    monthlyCost:bill.monthlyCost,
+                                    title: bill.title,
+                                    monthlyCost:e.target.value,
                                     enabled: bill.enabled
                                 })}></input>
                                 <h6 onClick={() => {deleteBill(bill); billDeleted()}} className='delete-button btn btn-outline-danger'>DELETE</h6>

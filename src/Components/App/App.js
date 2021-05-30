@@ -7,12 +7,13 @@ import BillTotal from '../BillTotal/BillTotal';
 import EditBills from '../EditBills/EditBills';
 import './App.css';
 
-
+import { ToastProvider } from 'react-toast-notifications';
 const App = () => {
 
   const {editModeEnabled} = useContext(BillContext);
 
   return (
+    <ToastProvider>
       <div className="main-container">
         {
           editModeEnabled ? <EditBills /> : 
@@ -24,6 +25,7 @@ const App = () => {
           </span>
         }
       </div>
+      </ToastProvider>
   );
 }
 

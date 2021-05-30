@@ -56,12 +56,10 @@ const AddBill = () =>{
             placeholder='Enter Bill title'
             type='text'
             value={newBillTitle}
-            autofocus
             onChange={(e)=>setNewBillTitle(e.target.value)}></input>
             <input className='add-bill-form-control form-control'
             placeholder='Enter Bill Monthly Cost'
             type='number'
-            min="0" step="1" oninput="validity.valid||(value='');"
             value={newBillCost}
             onChange={(e)=>setNewBillCost(e.target.value)}></input>
             <button className='add-bill-form-control btn btn-dark'
