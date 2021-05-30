@@ -1,0 +1,36 @@
+.total-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.bill-total-container {
+  flex-direction: row;
+  width: 100%;
+  margin: auto;
+  margin-top: 25px;
+  margin-bottom: 5px;
+  font-size: 25px;
+  text-align: center;
+  color: crimson;
+}
+
+.total-cost {
+  font-weight: 600;
+  margin-left: 5px;
+}
+
+.total-save-container {
+  flex-direction: row;
+  width: 100%;
+  margin: auto;
+  margin-top: 5px;
+  margin-bottom: 25px;
+  font-size: 25px;
+  text-align: center;
+  color: #0f55ec;
+}
+
+.total-saved {
+  font-weight: 600;
+  margin-left: 15px;
+}

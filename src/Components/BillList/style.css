@@ -1,0 +1,34 @@
+.bill-list-container {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+  width: 100%;
+  margin-top: 15px;
+  text-align: center;
+}
+.form-check-input {
+  width: 17px;
+  height: 17px;
+  cursor: pointer;
+}
+.edit-mode-btn {
+  margin: auto;
+  margin-top: 15px;
+  font-weight: 700;
+  font-size: large;
+}
+.bill-list-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-self: center;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  border-bottom: 2px solid black;
+}
+.bill-list-row-content {
+  font-weight: 600;
+  font-size: larger;
+  background-color: rgba(124, 123, 123, 0.315);
+}
