@@ -1,6 +1,6 @@
 {
-  "name": "kill-bill",
   "homepage": "https://whis20.github.io/kill-bill",
+  "name": "kill-bill",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
