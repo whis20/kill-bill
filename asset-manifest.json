@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/kill-bill/static/css/main.66ee3867.chunk.css",
+    "main.js": "/kill-bill/static/js/main.0defc9eb.chunk.js",
+    "main.js.map": "/kill-bill/static/js/main.0defc9eb.chunk.js.map",
+    "runtime-main.js": "/kill-bill/static/js/runtime-main.213cfb7d.js",
+    "runtime-main.js.map": "/kill-bill/static/js/runtime-main.213cfb7d.js.map",
+    "static/js/2.efa9fd4a.chunk.js": "/kill-bill/static/js/2.efa9fd4a.chunk.js",
+    "static/js/2.efa9fd4a.chunk.js.map": "/kill-bill/static/js/2.efa9fd4a.chunk.js.map",
+    "index.html": "/kill-bill/index.html",
+    "static/css/main.66ee3867.chunk.css.map": "/kill-bill/static/css/main.66ee3867.chunk.css.map",
+    "static/js/2.efa9fd4a.chunk.js.LICENSE.txt": "/kill-bill/static/js/2.efa9fd4a.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/kill-bill/static/media/bg.db671764.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.213cfb7d.js",
+    "static/js/2.efa9fd4a.chunk.js",
+    "static/css/main.66ee3867.chunk.css",
+    "static/js/main.0defc9eb.chunk.js"
+  ]
+}
